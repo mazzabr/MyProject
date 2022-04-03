@@ -30,6 +30,7 @@
 		D164BDC727F98E6000475F5D /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDC627F98E6000475F5D /* Award.swift */; };
 		D164BDC927F98E8F00475F5D /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDC827F98E8F00475F5D /* AwardsView.swift */; };
 		D164BDCB27F9934300475F5D /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDCA27F9934300475F5D /* Color-Additions.swift */; };
+		D164BDCD27F998B700475F5D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D164BDCC27F998B700475F5D /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		D164BDC627F98E6000475F5D /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		D164BDC827F98E8F00475F5D /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		D164BDCA27F9934300475F5D /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
+		D164BDCC27F998B700475F5D /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				D164BDC627F98E6000475F5D /* Award.swift */,
 				D164BDC827F98E8F00475F5D /* AwardsView.swift */,
 				D164BDCA27F9934300475F5D /* Color-Additions.swift */,
+				D164BDCC27F998B700475F5D /* Localizable.strings */,
 				D164BD9427F96EF400475F5D /* ContentView.swift */,
 				D164BDA327F9758600475F5D /* DataController.swift */,
 				D164BD9627F96EFA00475F5D /* Assets.xcassets */,
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D164BD9727F96EFA00475F5D /* Assets.xcassets in Resources */,
+				D164BDCD27F998B700475F5D /* Localizable.strings in Resources */,
 				D164BDC527F98E3B00475F5D /* Awards.json in Resources */,
 				D164BDBB27F982AA00475F5D /* Colors.xcassets in Resources */,
 			);
