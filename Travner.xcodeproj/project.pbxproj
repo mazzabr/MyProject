@@ -29,6 +29,7 @@
 		D164BDC527F98E3B00475F5D /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = D164BDC427F98E3B00475F5D /* Awards.json */; };
 		D164BDC727F98E6000475F5D /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDC627F98E6000475F5D /* Award.swift */; };
 		D164BDC927F98E8F00475F5D /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDC827F98E8F00475F5D /* AwardsView.swift */; };
+		D164BDCB27F9934300475F5D /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDCA27F9934300475F5D /* Color-Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		D164BDC427F98E3B00475F5D /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Awards.json; sourceTree = "<group>"; };
 		D164BDC627F98E6000475F5D /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		D164BDC827F98E8F00475F5D /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		D164BDCA27F9934300475F5D /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				D164BDC427F98E3B00475F5D /* Awards.json */,
 				D164BDC627F98E6000475F5D /* Award.swift */,
 				D164BDC827F98E8F00475F5D /* AwardsView.swift */,
+				D164BDCA27F9934300475F5D /* Color-Additions.swift */,
 				D164BD9427F96EF400475F5D /* ContentView.swift */,
 				D164BDA327F9758600475F5D /* DataController.swift */,
 				D164BD9627F96EFA00475F5D /* Assets.xcassets */,
@@ -202,6 +205,7 @@
 				D164BDA227F9740100475F5D /* Main.xcdatamodeld in Sources */,
 				D164BDC927F98E8F00475F5D /* AwardsView.swift in Sources */,
 				D164BDB127F97BA100475F5D /* Project-CoreDataHelpers.swift in Sources */,
+				D164BDCB27F9934300475F5D /* Color-Additions.swift in Sources */,
 				D164BDBD27F9830100475F5D /* EditProjectView.swift in Sources */,
 				D164BDA427F9758600475F5D /* DataController.swift in Sources */,
 				D164BDC127F98C2300475F5D /* SelectSomethingView.swift in Sources */,
