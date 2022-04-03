@@ -10,8 +10,11 @@ import XCTest
 
 class PerformanceTests: BaseTestCase {
     func testAwardCalculationPerformance() throws {
-        try dataController.createSampleData()
-        let awards = Award.allAwards
+        for _ in 1...100 {
+            try dataController.createSampleData()
+        }
+
+        let awards = Array(repeating: Award.allAwards, count: 25).joined()
 
         measure {
             _ = awards.filter(dataController.hasEarned)
