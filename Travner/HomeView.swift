@@ -54,14 +54,15 @@ struct HomeView: View {
             }
             .background(Color.systemGroupedBackground.ignoresSafeArea())
             .navigationTitle("Home")
+            .toolbar {
+                Button("Add Data") {
+                    dataController.deleteAll()
+                    try? dataController.createSampleData()
+                }
+            }
         }
     }
 }
-
-//Button("Add Data") {
-//    dataController.deleteAll()
-//    try? dataController.createSampleData()
-//}
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
