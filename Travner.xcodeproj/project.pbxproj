@@ -17,6 +17,7 @@
 		D164BDAD27F9797500475F5D /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDAC27F9797500475F5D /* ProjectsView.swift */; };
 		D164BDAF27F97B8D00475F5D /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDAE27F97B8D00475F5D /* Item-CoreDataHelpers.swift */; };
 		D164BDB127F97BA100475F5D /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDB027F97BA100475F5D /* Project-CoreDataHelpers.swift */; };
+		D164BDB327F97CFF00475F5D /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDB227F97CFF00475F5D /* EditItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		D164BDAC27F9797500475F5D /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		D164BDAE27F97B8D00475F5D /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		D164BDB027F97BA100475F5D /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		D164BDB227F97CFF00475F5D /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				D164BDAC27F9797500475F5D /* ProjectsView.swift */,
 				D164BDAE27F97B8D00475F5D /* Item-CoreDataHelpers.swift */,
 				D164BDB027F97BA100475F5D /* Project-CoreDataHelpers.swift */,
+				D164BDB227F97CFF00475F5D /* EditItemView.swift */,
 				D164BD9427F96EF400475F5D /* ContentView.swift */,
 				D164BDA327F9758600475F5D /* DataController.swift */,
 				D164BD9627F96EFA00475F5D /* Assets.xcassets */,
@@ -167,6 +170,7 @@
 				D164BDAB27F9791E00475F5D /* HomeView.swift in Sources */,
 				D164BD9327F96EF400475F5D /* TravnerApp.swift in Sources */,
 				D164BDAF27F97B8D00475F5D /* Item-CoreDataHelpers.swift in Sources */,
+				D164BDB327F97CFF00475F5D /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
