@@ -44,7 +44,7 @@
 		D164BDA127F9740100475F5D /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		D164BDA327F9758600475F5D /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		D164BDA527F9767D00475F5D /* Travner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Travner.entitlements; sourceTree = "<group>"; };
-		D164BDA627F9768200475F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D164BDA627F9768200475F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D164BDA827F9768800475F5D /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		D164BDAA27F9791E00475F5D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D164BDAC27F9797500475F5D /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
@@ -104,34 +104,15 @@
 		D164BD9127F96EF400475F5D /* Travner */ = {
 			isa = PBXGroup;
 			children = (
-				D164BDA627F9768200475F5D /* Info.plist */,
-				D164BDA527F9767D00475F5D /* Travner.entitlements */,
+				D169A7A727F9FC4C0051D9F4 /* Models */,
+				D169A7A827F9FC560051D9F4 /* Views */,
+				D169A7A927F9FC5C0051D9F4 /* Controllers */,
+				D169A7AA27F9FD0F0051D9F4 /* Extensions */,
+				D169A7AB27F9FD2A0051D9F4 /* Localization */,
+				D169A7AC27F9FD690051D9F4 /* Configuration */,
 				D164BD9227F96EF400475F5D /* TravnerApp.swift */,
-				D164BDAA27F9791E00475F5D /* HomeView.swift */,
-				D164BDAC27F9797500475F5D /* ProjectsView.swift */,
-				D164BDAE27F97B8D00475F5D /* Item-CoreDataHelpers.swift */,
-				D164BDB027F97BA100475F5D /* Project-CoreDataHelpers.swift */,
-				D164BDB227F97CFF00475F5D /* EditItemView.swift */,
-				D164BDB427F97EBE00475F5D /* ItemRowView.swift */,
-				D164BDB627F980B800475F5D /* Binding-OnChange.swift */,
-				D164BDB827F981F800475F5D /* ProjectHeaderView.swift */,
-				D164BDBC27F9830100475F5D /* EditProjectView.swift */,
-				D164BDBE27F98AB900475F5D /* Sequence-Sorting.swift */,
-				D164BDC027F98C2300475F5D /* SelectSomethingView.swift */,
-				D164BDC227F98DF500475F5D /* Bundle-Decodable.swift */,
-				D164BDC627F98E6000475F5D /* Award.swift */,
-				D164BDC827F98E8F00475F5D /* AwardsView.swift */,
-				D164BDCA27F9934300475F5D /* Color-Additions.swift */,
-				D169A7A227F9D70E0051D9F4 /* ItemListView.swift */,
-				D169A7A427F9D7770051D9F4 /* ProjectSummaryView.swift */,
-				D169A79427F9B8D30051D9F4 /* Awards.json */,
-				D169A79B27F9B92D0051D9F4 /* Localizable.strings */,
-				D169A79E27F9B9320051D9F4 /* Localizable.stringsdict */,
-				D164BD9427F96EF400475F5D /* ContentView.swift */,
-				D164BDA327F9758600475F5D /* DataController.swift */,
 				D164BD9627F96EFA00475F5D /* Assets.xcassets */,
 				D164BDBA27F982AA00475F5D /* Colors.xcassets */,
-				D164BDA027F9740100475F5D /* Main.xcdatamodeld */,
 			);
 			path = Travner;
 			sourceTree = "<group>";
@@ -142,6 +123,73 @@
 				D164BDA827F9768800475F5D /* CloudKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D169A7A727F9FC4C0051D9F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D164BDAE27F97B8D00475F5D /* Item-CoreDataHelpers.swift */,
+				D164BDB027F97BA100475F5D /* Project-CoreDataHelpers.swift */,
+				D164BDC627F98E6000475F5D /* Award.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D169A7A827F9FC560051D9F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D164BDAA27F9791E00475F5D /* HomeView.swift */,
+				D169A7A427F9D7770051D9F4 /* ProjectSummaryView.swift */,
+				D169A7A227F9D70E0051D9F4 /* ItemListView.swift */,
+				D164BDAC27F9797500475F5D /* ProjectsView.swift */,
+				D164BDC027F98C2300475F5D /* SelectSomethingView.swift */,
+				D164BDB427F97EBE00475F5D /* ItemRowView.swift */,
+				D164BD9427F96EF400475F5D /* ContentView.swift */,
+				D164BDB227F97CFF00475F5D /* EditItemView.swift */,
+				D164BDB827F981F800475F5D /* ProjectHeaderView.swift */,
+				D164BDBC27F9830100475F5D /* EditProjectView.swift */,
+				D164BDC827F98E8F00475F5D /* AwardsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D169A7A927F9FC5C0051D9F4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D164BDA327F9758600475F5D /* DataController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D169A7AA27F9FD0F0051D9F4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D164BDC227F98DF500475F5D /* Bundle-Decodable.swift */,
+				D164BDBE27F98AB900475F5D /* Sequence-Sorting.swift */,
+				D164BDB627F980B800475F5D /* Binding-OnChange.swift */,
+				D164BDCA27F9934300475F5D /* Color-Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D169A7AB27F9FD2A0051D9F4 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				D169A79B27F9B92D0051D9F4 /* Localizable.strings */,
+				D169A79E27F9B9320051D9F4 /* Localizable.stringsdict */,
+				D169A79427F9B8D30051D9F4 /* Awards.json */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		D169A7AC27F9FD690051D9F4 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D164BDA527F9767D00475F5D /* Travner.entitlements */,
+				D164BDA627F9768200475F5D /* Info.plist */,
+				D164BDA027F9740100475F5D /* Main.xcdatamodeld */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,14 +466,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Travner/Travner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Travner/Configuration/Travner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 6YURMG4P5W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Travner/Info.plist;
+				INFOPLIST_FILE = Travner/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,14 +497,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Travner/Travner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Travner/Configuration/Travner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 6YURMG4P5W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Travner/Info.plist;
+				INFOPLIST_FILE = Travner/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
