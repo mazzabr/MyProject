@@ -32,6 +32,8 @@
 		D169A79827F9B8D30051D9F4 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = D169A79427F9B8D30051D9F4 /* Awards.json */; };
 		D169A79927F9B92D0051D9F4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D169A79B27F9B92D0051D9F4 /* Localizable.strings */; };
 		D169A79C27F9B9320051D9F4 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = D169A79E27F9B9320051D9F4 /* Localizable.stringsdict */; };
+		D169A7A327F9D70E0051D9F4 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169A7A227F9D70E0051D9F4 /* ItemListView.swift */; };
+		D169A7A527F9D7770051D9F4 /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169A7A427F9D7770051D9F4 /* ProjectSummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		D169A79F27F9B9B70051D9F4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "pt-BR"; path = "pt-BR.lproj/Awards.json"; sourceTree = "<group>"; };
 		D169A7A027F9B9B70051D9F4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		D169A7A127F9B9B70051D9F4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "pt-BR"; path = "pt-BR.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
+		D169A7A227F9D70E0051D9F4 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		D169A7A427F9D7770051D9F4 /* ProjectSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				D164BDC627F98E6000475F5D /* Award.swift */,
 				D164BDC827F98E8F00475F5D /* AwardsView.swift */,
 				D164BDCA27F9934300475F5D /* Color-Additions.swift */,
+				D169A7A227F9D70E0051D9F4 /* ItemListView.swift */,
+				D169A7A427F9D7770051D9F4 /* ProjectSummaryView.swift */,
 				D169A79427F9B8D30051D9F4 /* Awards.json */,
 				D169A79B27F9B92D0051D9F4 /* Localizable.strings */,
 				D169A79E27F9B9320051D9F4 /* Localizable.stringsdict */,
@@ -213,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D164BDAD27F9797500475F5D /* ProjectsView.swift in Sources */,
+				D169A7A527F9D7770051D9F4 /* ProjectSummaryView.swift in Sources */,
 				D164BDB927F981F800475F5D /* ProjectHeaderView.swift in Sources */,
 				D164BDA227F9740100475F5D /* Main.xcdatamodeld in Sources */,
 				D164BDC927F98E8F00475F5D /* AwardsView.swift in Sources */,
@@ -227,6 +234,7 @@
 				D164BDB727F980B800475F5D /* Binding-OnChange.swift in Sources */,
 				D164BDBF27F98AB900475F5D /* Sequence-Sorting.swift in Sources */,
 				D164BDAB27F9791E00475F5D /* HomeView.swift in Sources */,
+				D169A7A327F9D70E0051D9F4 /* ItemListView.swift in Sources */,
 				D164BDC327F98DF500475F5D /* Bundle-Decodable.swift in Sources */,
 				D164BD9327F96EF400475F5D /* TravnerApp.swift in Sources */,
 				D164BDAF27F97B8D00475F5D /* Item-CoreDataHelpers.swift in Sources */,
