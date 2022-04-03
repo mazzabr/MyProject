@@ -22,6 +22,7 @@
 		D164BDB727F980B800475F5D /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDB627F980B800475F5D /* Binding-OnChange.swift */; };
 		D164BDB927F981F800475F5D /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDB827F981F800475F5D /* ProjectHeaderView.swift */; };
 		D164BDBB27F982AA00475F5D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D164BDBA27F982AA00475F5D /* Colors.xcassets */; };
+		D164BDBD27F9830100475F5D /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDBC27F9830100475F5D /* EditProjectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		D164BDB627F980B800475F5D /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
 		D164BDB827F981F800475F5D /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
 		D164BDBA27F982AA00475F5D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		D164BDBC27F9830100475F5D /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				D164BDB427F97EBE00475F5D /* ItemRowView.swift */,
 				D164BDB627F980B800475F5D /* Binding-OnChange.swift */,
 				D164BDB827F981F800475F5D /* ProjectHeaderView.swift */,
+				D164BDBC27F9830100475F5D /* EditProjectView.swift */,
 				D164BD9427F96EF400475F5D /* ContentView.swift */,
 				D164BDA327F9758600475F5D /* DataController.swift */,
 				D164BD9627F96EFA00475F5D /* Assets.xcassets */,
@@ -179,6 +182,7 @@
 				D164BDB927F981F800475F5D /* ProjectHeaderView.swift in Sources */,
 				D164BDA227F9740100475F5D /* Main.xcdatamodeld in Sources */,
 				D164BDB127F97BA100475F5D /* Project-CoreDataHelpers.swift in Sources */,
+				D164BDBD27F9830100475F5D /* EditProjectView.swift in Sources */,
 				D164BDA427F9758600475F5D /* DataController.swift in Sources */,
 				D164BDB527F97EBE00475F5D /* ItemRowView.swift in Sources */,
 				D164BD9527F96EF400475F5D /* ContentView.swift in Sources */,
