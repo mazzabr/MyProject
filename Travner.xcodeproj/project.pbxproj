@@ -24,6 +24,7 @@
 		D164BDBB27F982AA00475F5D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D164BDBA27F982AA00475F5D /* Colors.xcassets */; };
 		D164BDBD27F9830100475F5D /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDBC27F9830100475F5D /* EditProjectView.swift */; };
 		D164BDBF27F98AB900475F5D /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDBE27F98AB900475F5D /* Sequence-Sorting.swift */; };
+		D164BDC127F98C2300475F5D /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDC027F98C2300475F5D /* SelectSomethingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		D164BDBA27F982AA00475F5D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		D164BDBC27F9830100475F5D /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		D164BDBE27F98AB900475F5D /* Sequence-Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence-Sorting.swift"; sourceTree = "<group>"; };
+		D164BDC027F98C2300475F5D /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				D164BDB827F981F800475F5D /* ProjectHeaderView.swift */,
 				D164BDBC27F9830100475F5D /* EditProjectView.swift */,
 				D164BDBE27F98AB900475F5D /* Sequence-Sorting.swift */,
+				D164BDC027F98C2300475F5D /* SelectSomethingView.swift */,
 				D164BD9427F96EF400475F5D /* ContentView.swift */,
 				D164BDA327F9758600475F5D /* DataController.swift */,
 				D164BD9627F96EFA00475F5D /* Assets.xcassets */,
@@ -187,6 +190,7 @@
 				D164BDB127F97BA100475F5D /* Project-CoreDataHelpers.swift in Sources */,
 				D164BDBD27F9830100475F5D /* EditProjectView.swift in Sources */,
 				D164BDA427F9758600475F5D /* DataController.swift in Sources */,
+				D164BDC127F98C2300475F5D /* SelectSomethingView.swift in Sources */,
 				D164BDB527F97EBE00475F5D /* ItemRowView.swift in Sources */,
 				D164BD9527F96EF400475F5D /* ContentView.swift in Sources */,
 				D164BDB727F980B800475F5D /* Binding-OnChange.swift in Sources */,
