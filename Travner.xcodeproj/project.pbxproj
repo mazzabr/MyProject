@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D149012B27FA076D00A01053 /* TravnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149012A27FA076D00A01053 /* TravnerTests.swift */; };
+		D149013227FA081100A01053 /* AssetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149013127FA081100A01053 /* AssetTests.swift */; };
 		D164BD9327F96EF400475F5D /* TravnerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BD9227F96EF400475F5D /* TravnerApp.swift */; };
 		D164BD9527F96EF400475F5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BD9427F96EF400475F5D /* ContentView.swift */; };
 		D164BD9727F96EFA00475F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D164BD9627F96EFA00475F5D /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 /* Begin PBXFileReference section */
 		D149012827FA076C00A01053 /* TravnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D149012A27FA076D00A01053 /* TravnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravnerTests.swift; sourceTree = "<group>"; };
+		D149013127FA081100A01053 /* AssetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTests.swift; sourceTree = "<group>"; };
 		D164BD8F27F96EF400475F5D /* Travner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D164BD9227F96EF400475F5D /* TravnerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravnerApp.swift; sourceTree = "<group>"; };
 		D164BD9427F96EF400475F5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				D149012A27FA076D00A01053 /* TravnerTests.swift */,
+				D149013127FA081100A01053 /* AssetTests.swift */,
 			);
 			path = TravnerTests;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D149013227FA081100A01053 /* AssetTests.swift in Sources */,
 				D149012B27FA076D00A01053 /* TravnerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
