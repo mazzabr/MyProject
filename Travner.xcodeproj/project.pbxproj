@@ -15,6 +15,7 @@
 		D149013A27FA126000A01053 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149013927FA126000A01053 /* ExtensionTests.swift */; };
 		D149013D27FA12EF00A01053 /* DecodableDictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = D149013C27FA12EF00A01053 /* DecodableDictionary.json */; };
 		D149013F27FA130900A01053 /* DecodableString.json in Resources */ = {isa = PBXBuildFile; fileRef = D149013E27FA130900A01053 /* DecodableString.json */; };
+		D149014127FA166700A01053 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149014027FA166700A01053 /* PerformanceTests.swift */; };
 		D164BD9327F96EF400475F5D /* TravnerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BD9227F96EF400475F5D /* TravnerApp.swift */; };
 		D164BD9527F96EF400475F5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BD9427F96EF400475F5D /* ContentView.swift */; };
 		D164BD9727F96EFA00475F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D164BD9627F96EFA00475F5D /* Assets.xcassets */; };
@@ -64,6 +65,7 @@
 		D149013927FA126000A01053 /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
 		D149013C27FA12EF00A01053 /* DecodableDictionary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableDictionary.json; sourceTree = "<group>"; };
 		D149013E27FA130900A01053 /* DecodableString.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableString.json; sourceTree = "<group>"; };
+		D149014027FA166700A01053 /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
 		D164BD8F27F96EF400475F5D /* Travner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D164BD9227F96EF400475F5D /* TravnerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravnerApp.swift; sourceTree = "<group>"; };
 		D164BD9427F96EF400475F5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				D149013527FA095300A01053 /* AwardTests.swift */,
 				D149013727FA103400A01053 /* DevelopmentTests.swift */,
 				D149013927FA126000A01053 /* ExtensionTests.swift */,
+				D149014027FA166700A01053 /* PerformanceTests.swift */,
 			);
 			path = TravnerTests;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D149014127FA166700A01053 /* PerformanceTests.swift in Sources */,
 				D149013227FA081100A01053 /* AssetTests.swift in Sources */,
 				D149013627FA095300A01053 /* AwardTests.swift in Sources */,
 				D149012B27FA076D00A01053 /* TravnerTests.swift in Sources */,
