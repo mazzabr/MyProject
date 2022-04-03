@@ -25,6 +25,7 @@
 		D164BDBD27F9830100475F5D /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDBC27F9830100475F5D /* EditProjectView.swift */; };
 		D164BDBF27F98AB900475F5D /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDBE27F98AB900475F5D /* Sequence-Sorting.swift */; };
 		D164BDC127F98C2300475F5D /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDC027F98C2300475F5D /* SelectSomethingView.swift */; };
+		D164BDC327F98DF500475F5D /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDC227F98DF500475F5D /* Bundle-Decodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		D164BDBC27F9830100475F5D /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		D164BDBE27F98AB900475F5D /* Sequence-Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence-Sorting.swift"; sourceTree = "<group>"; };
 		D164BDC027F98C2300475F5D /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
+		D164BDC227F98DF500475F5D /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				D164BDBC27F9830100475F5D /* EditProjectView.swift */,
 				D164BDBE27F98AB900475F5D /* Sequence-Sorting.swift */,
 				D164BDC027F98C2300475F5D /* SelectSomethingView.swift */,
+				D164BDC227F98DF500475F5D /* Bundle-Decodable.swift */,
 				D164BD9427F96EF400475F5D /* ContentView.swift */,
 				D164BDA327F9758600475F5D /* DataController.swift */,
 				D164BD9627F96EFA00475F5D /* Assets.xcassets */,
@@ -196,6 +199,7 @@
 				D164BDB727F980B800475F5D /* Binding-OnChange.swift in Sources */,
 				D164BDBF27F98AB900475F5D /* Sequence-Sorting.swift in Sources */,
 				D164BDAB27F9791E00475F5D /* HomeView.swift in Sources */,
+				D164BDC327F98DF500475F5D /* Bundle-Decodable.swift in Sources */,
 				D164BD9327F96EF400475F5D /* TravnerApp.swift in Sources */,
 				D164BDAF27F97B8D00475F5D /* Item-CoreDataHelpers.swift in Sources */,
 				D164BDB327F97CFF00475F5D /* EditItemView.swift in Sources */,
