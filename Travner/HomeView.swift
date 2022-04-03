@@ -10,10 +10,14 @@ import SwiftUI
 
 struct HomeView: View {
     static let tag: String? = "Home"
-    
+
     @EnvironmentObject var dataController: DataController
 
-    @FetchRequest(entity: Project.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \Project.title, ascending: true)], predicate: NSPredicate(format: "closed = false")) var projects: FetchedResults<Project>
+    @FetchRequest(
+        entity: Project.entity(),
+        sortDescriptors: [NSSortDescriptor(keyPath: \Project.title, ascending: true)],
+        predicate: NSPredicate(format: "closed = false")
+    ) var projects: FetchedResults<Project>
 
     let items: FetchRequest<Item>
 
@@ -23,7 +27,7 @@ struct HomeView: View {
 
     init() {
         let request: NSFetchRequest<Item> = Item.fetchRequest()
-        
+
         let completedPredicate = NSPredicate(format: "completed = false")
         let openPredicate = NSPredicate(format: "project.closed = false")
         let compoundPredicate = NSCompoundPredicate(type: .and, subpredicates: [completedPredicate, openPredicate])

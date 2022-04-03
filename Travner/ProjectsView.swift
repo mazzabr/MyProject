@@ -16,7 +16,7 @@ struct ProjectsView: View {
 
     @State private var showingSortOrder = false
     @State private var sortOrder = Item.SortOrder.optimized
-    
+
     let showClosedProjects: Bool
     let projects: FetchRequest<Project>
 
