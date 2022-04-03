@@ -19,6 +19,7 @@
 		D164BDB127F97BA100475F5D /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDB027F97BA100475F5D /* Project-CoreDataHelpers.swift */; };
 		D164BDB327F97CFF00475F5D /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDB227F97CFF00475F5D /* EditItemView.swift */; };
 		D164BDB527F97EBE00475F5D /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDB427F97EBE00475F5D /* ItemRowView.swift */; };
+		D164BDB727F980B800475F5D /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDB627F980B800475F5D /* Binding-OnChange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		D164BDB027F97BA100475F5D /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		D164BDB227F97CFF00475F5D /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		D164BDB427F97EBE00475F5D /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		D164BDB627F980B800475F5D /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				D164BDB027F97BA100475F5D /* Project-CoreDataHelpers.swift */,
 				D164BDB227F97CFF00475F5D /* EditItemView.swift */,
 				D164BDB427F97EBE00475F5D /* ItemRowView.swift */,
+				D164BDB627F980B800475F5D /* Binding-OnChange.swift */,
 				D164BD9427F96EF400475F5D /* ContentView.swift */,
 				D164BDA327F9758600475F5D /* DataController.swift */,
 				D164BD9627F96EFA00475F5D /* Assets.xcassets */,
@@ -171,6 +174,7 @@
 				D164BDA427F9758600475F5D /* DataController.swift in Sources */,
 				D164BDB527F97EBE00475F5D /* ItemRowView.swift in Sources */,
 				D164BD9527F96EF400475F5D /* ContentView.swift in Sources */,
+				D164BDB727F980B800475F5D /* Binding-OnChange.swift in Sources */,
 				D164BDAB27F9791E00475F5D /* HomeView.swift in Sources */,
 				D164BD9327F96EF400475F5D /* TravnerApp.swift in Sources */,
 				D164BDAF27F97B8D00475F5D /* Item-CoreDataHelpers.swift in Sources */,
