@@ -13,6 +13,7 @@
 		D164BDA227F9740100475F5D /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D164BDA027F9740100475F5D /* Main.xcdatamodeld */; };
 		D164BDA427F9758600475F5D /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDA327F9758600475F5D /* DataController.swift */; };
 		D164BDA927F9768800475F5D /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D164BDA827F9768800475F5D /* CloudKit.framework */; };
+		D164BDAB27F9791E00475F5D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BDAA27F9791E00475F5D /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D164BDA527F9767D00475F5D /* Travner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Travner.entitlements; sourceTree = "<group>"; };
 		D164BDA627F9768200475F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D164BDA827F9768800475F5D /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		D164BDAA27F9791E00475F5D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				D164BDA627F9768200475F5D /* Info.plist */,
 				D164BDA527F9767D00475F5D /* Travner.entitlements */,
 				D164BD9227F96EF400475F5D /* TravnerApp.swift */,
+				D164BDAA27F9791E00475F5D /* HomeView.swift */,
 				D164BD9427F96EF400475F5D /* ContentView.swift */,
 				D164BDA327F9758600475F5D /* DataController.swift */,
 				D164BD9627F96EFA00475F5D /* Assets.xcassets */,
@@ -150,6 +153,7 @@
 				D164BDA227F9740100475F5D /* Main.xcdatamodeld in Sources */,
 				D164BDA427F9758600475F5D /* DataController.swift in Sources */,
 				D164BD9527F96EF400475F5D /* ContentView.swift in Sources */,
+				D164BDAB27F9791E00475F5D /* HomeView.swift in Sources */,
 				D164BD9327F96EF400475F5D /* TravnerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
