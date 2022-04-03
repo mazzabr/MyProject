@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D12E07D727FA1ECC00082F65 /* TravnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E07D627FA1ECB00082F65 /* TravnerUITests.swift */; };
 		D149012B27FA076D00A01053 /* TravnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149012A27FA076D00A01053 /* TravnerTests.swift */; };
 		D149013227FA081100A01053 /* AssetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149013127FA081100A01053 /* AssetTests.swift */; };
 		D149013427FA08C500A01053 /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149013327FA08C500A01053 /* ProjectTests.swift */; };
@@ -46,6 +47,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D12E07DA27FA1ECC00082F65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D164BD8727F96EF400475F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D164BD8E27F96EF400475F5D;
+			remoteInfo = Travner;
+		};
 		D149012C27FA076D00A01053 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D164BD8727F96EF400475F5D /* Project object */;
@@ -56,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D12E07D427FA1ECB00082F65 /* TravnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12E07D627FA1ECB00082F65 /* TravnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravnerUITests.swift; sourceTree = "<group>"; };
 		D149012827FA076C00A01053 /* TravnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D149012A27FA076D00A01053 /* TravnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravnerTests.swift; sourceTree = "<group>"; };
 		D149013127FA081100A01053 /* AssetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTests.swift; sourceTree = "<group>"; };
@@ -102,6 +112,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D12E07D127FA1ECB00082F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D149012527FA076C00A01053 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -120,6 +137,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D12E07D527FA1ECB00082F65 /* TravnerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D12E07D627FA1ECB00082F65 /* TravnerUITests.swift */,
+			);
+			path = TravnerUITests;
+			sourceTree = "<group>";
+		};
 		D149012927FA076D00A01053 /* TravnerTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +174,7 @@
 			children = (
 				D164BD9127F96EF400475F5D /* Travner */,
 				D149012927FA076D00A01053 /* TravnerTests */,
+				D12E07D527FA1ECB00082F65 /* TravnerUITests */,
 				D164BD9027F96EF400475F5D /* Products */,
 				D164BDA727F9768800475F5D /* Frameworks */,
 			);
@@ -159,6 +185,7 @@
 			children = (
 				D164BD8F27F96EF400475F5D /* Travner.app */,
 				D149012827FA076C00A01053 /* TravnerTests.xctest */,
+				D12E07D427FA1ECB00082F65 /* TravnerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -265,6 +292,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D12E07D327FA1ECB00082F65 /* TravnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12E07DE27FA1ECC00082F65 /* Build configuration list for PBXNativeTarget "TravnerUITests" */;
+			buildPhases = (
+				D12E07D027FA1ECB00082F65 /* Sources */,
+				D12E07D127FA1ECB00082F65 /* Frameworks */,
+				D12E07D227FA1ECB00082F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12E07DB27FA1ECC00082F65 /* PBXTargetDependency */,
+			);
+			name = TravnerUITests;
+			productName = TravnerUITests;
+			productReference = D12E07D427FA1ECB00082F65 /* TravnerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		D149012727FA076C00A01053 /* TravnerTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D149013027FA076D00A01053 /* Build configuration list for PBXNativeTarget "TravnerTests" */;
@@ -311,6 +356,10 @@
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					D12E07D327FA1ECB00082F65 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = D164BD8E27F96EF400475F5D;
+					};
 					D149012727FA076C00A01053 = {
 						CreatedOnToolsVersion = 13.3;
 						TestTargetID = D164BD8E27F96EF400475F5D;
@@ -336,11 +385,19 @@
 			targets = (
 				D164BD8E27F96EF400475F5D /* Travner */,
 				D149012727FA076C00A01053 /* TravnerTests */,
+				D12E07D327FA1ECB00082F65 /* TravnerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D12E07D227FA1ECB00082F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D149012627FA076C00A01053 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,6 +443,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D12E07D027FA1ECB00082F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12E07D727FA1ECC00082F65 /* TravnerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D149012427FA076C00A01053 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,6 +496,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D12E07DB27FA1ECC00082F65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D164BD8E27F96EF400475F5D /* Travner */;
+			targetProxy = D12E07DA27FA1ECC00082F65 /* PBXContainerItemProxy */;
+		};
 		D149012D27FA076D00A01053 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D164BD8E27F96EF400475F5D /* Travner */;
@@ -469,6 +539,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D12E07DC27FA1ECC00082F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YURMG4P5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mazzar.TravnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Travner;
+			};
+			name = Debug;
+		};
+		D12E07DD27FA1ECC00082F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YURMG4P5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mazzar.TravnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Travner;
+			};
+			name = Release;
+		};
 		D149012E27FA076D00A01053 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -686,6 +790,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D12E07DE27FA1ECC00082F65 /* Build configuration list for PBXNativeTarget "TravnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12E07DC27FA1ECC00082F65 /* Debug */,
+				D12E07DD27FA1ECC00082F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D149013027FA076D00A01053 /* Build configuration list for PBXNativeTarget "TravnerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
